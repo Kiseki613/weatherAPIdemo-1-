@@ -28,7 +28,7 @@ $(document).on('pagecreate', '#feedPage', function(event) {
 	
 };
 
-    xhttp.open("GET", feedURL, true);
-    xhttp.send();
+    xmlhttp.open("GET", feedURL, true);
+    xmlhttp.send();
     
  });
